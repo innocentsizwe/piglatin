@@ -1,0 +1,9 @@
+<h1>Big Latin Translator</h1>
+
+<form action="{% url 'translate' %}">
+    <input type="text" name="translator" value="" />
+    <input type="submit" value="Translate" />
+    <br />
+    <br />
+    <a href="{% url 'about' %}">About Us</a>
+</form>
